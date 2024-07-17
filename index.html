@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header class="flex">
+        <div class="container flex">
+            <div class="logo">
+                <img src="src/img/logo.png" alt="logo" width="100%">
+            </div>
+            <div class="login flex">
+                <div class="login-left flex">
+                    <label for="user-name">Email or Phone</label>
+                    <input type="text" id="user-name">
+                    <label class="loggin-footer">
+                        <input type="checkbox">
+                        Keep me logged in
+                    </label>
+                </div>
+                <div class="login-right flex">
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                    <p class="loggin-footer">Forgotten your password?</p>
+                </div>
+                <button class="login-button">
+                    Log in
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="flex">
+        <div class="container flex">
+            <div class="main-left flex">
+                <h2>Facebook helps you connect and share with the people in your life.</h2>
+            </div>
+            <div class="main-right flex">
+                <h1>Sign Up</h1>
+                <h3>It's free and always will be</h3>
+                <div class="full-name flex">
+                    <input type="text" id="first-name" placeholder="First Name">
+                    <input type="text" id="last-name" placeholder="Last Name">
+                </div>
+                <input type="text" id="email" placeholder="Your email address">
+                <input type="text" id="re-email" placeholder="Re-enter email address">
+                <input type="text" id="new-password" placeholder="New Password">
+                <label class="date">
+                    <h3>Birthday</h3>
+                    <select name="day" id="day">
+                        <option value="day">Day</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="month">Month</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="year">Year</option>
+                    </select>
+                </label>
+
+                <label class="gender">
+                    <label class="gender">
+                        <input type="radio" name="gender" value="male">
+                        Male
+                    </label>
+                    <label class="gender">
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                </label>
+                <div class="sign-up-btn">
+                    Sign Up
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
